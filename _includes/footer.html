@@ -1,0 +1,30 @@
+<footer class="site-footer">
+
+    <div style="text-align: center; padding-top: 1.5em;">
+      <span style="font-size: 1.4em;">
+      {% if site.linkedin_username %}
+        <div style="padding-right: 0.5em; display: inline;">
+        {% include icon-linkedin.html username=site.linkedin_username %} 
+        </div>
+      {% endif %}
+      {% if site.github_username %}
+        {% include icon-github.html username=site.github_username %} 
+      {% endif %}
+      {% if site.twitter_username %}
+        <div style="padding-left: 0.5em; display: inline;">
+        {% include icon-twitter.html username=site.twitter_username %} 
+        </div>
+      {% endif %}
+      </span>
+
+      <div style="padding-top: 1.5em;">
+      <span style="font-size: 1em;">
+        <p>
+          Powered by <a href="https://jekyllrb.com/">Jekyll</a> and <a href="https://pages.github.com/">GitHub Pages</a>.
+          Subscribe via RSS <a rel="license" href="/feed.xml" <i class="fa fa-rss-square" style="font-size: 1.4em;"></i></a>
+        </p>
+      </span>
+      </div>
+    </div>
+
+</footer>

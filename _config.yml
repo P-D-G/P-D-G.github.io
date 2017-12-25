@@ -20,8 +20,9 @@ description: > # this means to ignore newlines until "baseurl:"
   I sometimes make things. This is their story.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://p-d-g.github.io" # the base hostname & protocol for your site
-# twitter_username: jekyllrb
-# github_username:  jekyll
+twitter_username: NotYetDr_PDG
+github_username: P-D-G
+linkedin_username: pgleonec
 
 author:
   name: 'Philip-Dylan Gleonec'
@@ -33,7 +34,7 @@ markdown: kramdown
 plugins:
   - jekyll-feed
 
-permalink: /blog/:year/:month/:day/:title
+permalink: /blog/:title
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
