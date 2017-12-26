@@ -261,19 +261,12 @@ box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
 
 .contacts {
   padding-top: 1.5em;
-  /*font-size: 1.4em;*/
+  padding-bottom: 1.5em;
+}
+footer .a-noline {
   border-bottom: 0px;
 }
-.contacts .a-noline {
-  border-bottom: 0px;
-}
-.contacts .a-noline:hover {
-  color: #0D47A1;
-}
-.credits .a-noline {
-  border-bottom: 0px;
-}
-.credits .a-noline:hover {
+footer .a-noline:hover {
   color: #0D47A1;
 }
 .a-history:visited {
@@ -281,8 +274,4 @@ box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
 }
 p a:visited {
   color: #0D47A1;
-}
-.credits {
-  padding-top: 1.5em;
-  font-style: 1em;
 }
