@@ -20,6 +20,14 @@ prose:
         field:
           element: "hidden"
           value: "post"
+      - name: "date"
+        field:
+          element: "hidden"
+          value: CURRENT_DATETIME
+      - name: "title"
+        field:
+          element: "hidden"
+          value: ""
       - name: "tags"
         field:
           element: "multiselect"
@@ -29,11 +37,6 @@ prose:
             - name: "Project"
               value: "project"
           alterable: "true"
-      - name: "linkurl"
-        field:
-          element: "text"
-          label: "Link URL"
-          value: ""
     _posts/static:
       - name: "layout"
         field:
