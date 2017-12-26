@@ -1,18 +1,28 @@
 ---
 layout: default
-title: Work in progress.
+title: PDG >_
 ---
 
-<span style="text-align: center;">
-	<h1>Bytes &amp; transistors</h1>
-	<p>I sometimes make things. I sometimes make rants.</p> 
-	<p>These are their stories.</p>
-</span>
+<div>
+  <a href="/blog/">
+    <img class="hvr-grow" src="/img/blog2.jpg" alt="Source : https://www.pexels.com/photo/blogging-blur-business-communication-261662/">
+  </a>
+  <a href="/projects/">
+    <img class="hvr-grow right" src="/img/pcb2.jpg" alt="Source : https://www.pexels.com/photo/green-black-and-white-computer-chip-circuit-163170/">
+  </a>
+</div>
 
-  {% for post in site.posts limit:1 %}
-    <a href="{{ post.url }}">
-    <h3>{{ post.title }}</h3>
-    <p class="blogdate">{{ post.date | date: "%d %B %Y" }}</p>
+  
+  <h2 class="latest-posts">Latest bits</h2>
+
+  {% for post in site.posts limit:3 %}
+    <a class="post-link" href="{{ post.url }}">
+      <h3>{{ post.title }} <span class="post-meta">{{ post.date | date: "%d %B %Y" }}</span></h3>
     </a>
-    <div>{{ post.content |truncatehtml | truncatewords: 60 }}</div>
+    {{ post.excerpt }}
+    <div class="post-footer">
+      <a href="{{ post.url }}">Read more.</a>
+    </div>
   {% endfor %}
+
+  <a href="/blog/">See older posts.</a>

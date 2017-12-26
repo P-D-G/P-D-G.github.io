@@ -1,0 +1,18 @@
+---
+layout: default
+title: PDG > Projects_ 
+permalink: /projects/
+---
+
+{% for post in site.posts %}
+  {% if post.tags contains "project" %}
+    <a class="post-link" href="{{ post.url }}">
+	    <h3>{{ post.title }} <span class="post-meta">{{ post.date | date: "%d %B %Y" }}</span></h3>
+	</a>
+    <!-- <div>{{ post.content |truncatehtml | truncatewords: 60 }}</div> -->
+    {{ post.excerpt }}
+    <div class="post-footer">
+    	<a href="{{ post.url }}">Read more.</a>
+	</div>
+  {% endif %}
+{% endfor %}

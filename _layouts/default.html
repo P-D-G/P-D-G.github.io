@@ -4,16 +4,15 @@
     {% include head.html %}
 
 		<body>
-	    	<nav>
-	    		<ul style="display: inline;">
-	        		<li style="display: inline; float: left;"><a href="{{ site.baseurl }}/">{{ site.title_displ }}>_</a></li>
-	        		<span style="float: right;">
-	        			<li style="display: inline;"><a class="page-link" href="/">Blog</a></li>
-	        			<li style="display: inline;"><a class="page-link" href="/projects/">Projects</a></li>
-	        			<li style="display: inline;"><a class="page-link" href="/about/">About</a></li>
-	        		</span>
-	    		</ul>
-			</nav>
+			<header>
+				<a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a>
+	    		<nav class="site-nav">
+       				<a class="page-link" href="/blog/">Blog</a>
+       				<a class="page-link" href="/projects/">Projects</a>
+       				<a class="page-link" href="/about/">About</a>
+				</nav>
+			</header>
+
 
 			{{ content }}
 			

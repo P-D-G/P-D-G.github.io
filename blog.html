@@ -1,0 +1,22 @@
+---
+layout: default
+title: PDG > Blog_
+---
+<!-- <h2 style="text-align: center;">Blog</h2> -->
+
+<!-- <ul class="posts">
+  {% for post in site.posts %}
+    <li><span>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
+  {% endfor %}
+</ul> -->
+
+  {% for post in site.posts limit:3 %}
+    <a class="post-link" href="{{ post.url }}">
+    <h3>{{ post.title }} <span class="post-meta">{{ post.date | date: "%d %B %Y" }}</span></h3>
+    </a>
+    <!-- <div>{{ post.content |truncatehtml | truncatewords: 60 }}</div> -->
+    {{ post.excerpt }}
+    <div class="post-footer">
+    	<a href="{{ post.url }}">Read more.</a>
+	</div>
+  {% endfor %}

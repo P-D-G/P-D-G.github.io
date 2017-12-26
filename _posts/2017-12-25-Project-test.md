@@ -1,10 +1,9 @@
 ---
 layout: post
-title: "This mah first post."
+title: "Project test"
 date: 2014-04-30
+tags: [project, test]
 ---
-
-Well. Finally got around to putting this old website together. Neat thing about it - powered by [Jekyll](http://jekyllrb.com) and I can use Markdown to author my posts. It actually is a lot easier than I thought it was going to be.
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sed tortor maximus, porttitor ipsum vel, tempor augue. Vivamus viverra lorem erat, eu hendrerit nunc consequat vitae. Maecenas condimentum lorem dolor, vitae egestas felis vehicula ut. Aenean vitae leo id ligula lobortis rutrum. Suspendisse a mattis erat, dictum maximus nisi. In et molestie eros, non molestie lacus. Nullam id ornare libero. Integer dapibus porttitor est non accumsan. Cras et aliquet neque. Donec luctus malesuada nisi, vel laoreet enim porttitor vitae. Nulla facilisi. Fusce pretium nisl nec mauris suscipit, sit amet tincidunt nibh vehicula.
 
