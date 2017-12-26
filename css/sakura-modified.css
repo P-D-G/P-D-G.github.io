@@ -12,7 +12,7 @@ html {
 body {
   font-size: 16px;
   line-height: 1.618;
-  max-width: 55%;
+  max-width: 55em;
   margin: auto;
   color: #4a4a4a;
   background-color: #fdfdfd;
@@ -250,6 +250,7 @@ box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
 
 .latest-posts {
   text-align: center;
+  padding-top: 1em;
 }
 
 .contacts {
