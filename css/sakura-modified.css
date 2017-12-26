@@ -66,10 +66,9 @@ hr {
 
 a {
   text-decoration: none;
-  color: #663399; }
+  color: #2962FF; }
   a:hover {
-    color: #1F3A93;
-    border-bottom: 2px solid #4a4a4a; }
+    border-bottom: 2px solid #2962FF; }
 
 ul {
   padding-left: 1.4em; }
@@ -193,6 +192,9 @@ footer {
     margin-bottom: 0;
     float: left;
 }
+.site-title:hover {
+  color: #2962FF;
+}
 .site-nav {
     float: right;
     line-height: 56px;
@@ -203,6 +205,9 @@ footer {
 .site-nav .page-link {
     color: #4a4a4a;
     line-height: 1.5;
+}
+.site-nav:hover .page-link:hover {
+    color: #2962FF;
 }
 .post-meta {
     float: right;
@@ -215,7 +220,8 @@ footer {
     color: #4a4a4a;
 }
 .post-link:hover {
-    color: #D35400;
+    color: #2962FF;
+    border-bottom: 2px solid #2962FF;
 }
 
 /* Grow */
@@ -256,9 +262,27 @@ box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
 .contacts {
   padding-top: 1.5em;
   /*font-size: 1.4em;*/
+  border-bottom: 0px;
 }
-
+.contacts .a-noline {
+  border-bottom: 0px;
+}
+.contacts .a-noline:hover {
+  color: #0D47A1;
+}
+.credits .a-noline {
+  border-bottom: 0px;
+}
+.credits .a-noline:hover {
+  color: #0D47A1;
+}
+.a-history:visited {
+  color: #0D47A1;
+}
+p a:visited {
+  color: #0D47A1;
+}
 .credits {
-  padding-top: 1em;
+  padding-top: 1.5em;
   font-style: 1em;
 }
