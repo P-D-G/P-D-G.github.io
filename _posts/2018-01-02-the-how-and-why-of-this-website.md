@@ -1,7 +1,7 @@
 ---
 date: '2018-01-03 00:25 +0100'
 layout: post
-published: false
+published: true
 title: The How and Why of this Website
 tags:
   - project
