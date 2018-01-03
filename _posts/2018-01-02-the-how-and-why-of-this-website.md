@@ -1,3 +1,11 @@
+---
+date: '2018-01-03 00:25 +0100'
+layout: post
+published: true
+title: The How and Why of this Website
+tags:
+  - project
+---
 Well, I guess the first post on a blog or personnal website is always the more awkward so, here it is. First with the "Why" of this website.
 
 The reason is simple : I wanted a place to put on a few projects I do, practice a little HTML/CSS and design, and basically have a little portfolio available. Since this isn't something I hope to earn something with, I wanted to have little to no maintenance to do. Or 0 maintenance, if possible, since there is a chance I'd get lazy with it. This rules out CMS, due to the need of frequent updates to patch security holes. I also wanted something simple and cheap to host. Again the idea here is to ease maintenance and make it as painless as possible.

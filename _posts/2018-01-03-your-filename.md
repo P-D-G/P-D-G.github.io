@@ -1,6 +1,8 @@
 ---
+date: '2018-01-03 00:26 +0100'
 layout: post
 published: false
+title: Untitled
 ---
 ## A New Post
 
