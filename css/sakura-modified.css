@@ -19,6 +19,7 @@ body {
   color: #4a4a4a;
   background-color: #fdfdfd;
   padding: 13px;
+  z-index: auto;
    }
 
 @media (max-width: 684px) {
@@ -237,6 +238,7 @@ footer {
     -moz-osx-font-smoothing: grayscale;
     transition-duration: 0.3s;
     transition-property: transform;
+    position: relative;
 }
 
 .right {
@@ -248,7 +250,7 @@ footer {
 .hvr-grow:active {
     transform: scale(1.1);
     z-index: 100;
-box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
 }
 
 .post-footer {
